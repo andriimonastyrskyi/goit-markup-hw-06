@@ -872,18 +872,19 @@ body {
 }
 
 .checkbox:checked + .check-text .unchecked {
-  opacity: 1;
+  opacity: 0;
 }
 
 .checkbox:checked + .check-text .checked {
-  opacity: 0;
+  opacity: 1;
 }
 
 .checked {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 0;
 }
 .unchecked {
-  opacity: 0;
+  opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .privacy {
