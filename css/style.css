@@ -839,7 +839,7 @@ body {
 
 .modal-input:hover + .modal-icon,
 .modal-input:focus + .modal-icon {
-  fill: var(--acent-color);
+  fill: var(--accent-text);
 }
 
 .modal-textarea {
@@ -871,12 +871,12 @@ body {
   margin-right: 7px;
 }
 
-.checkbox:checked + .check-text .checked {
-  opacity: 0;
-}
-
 .checkbox:checked + .check-text .unchecked {
   opacity: 1;
+}
+
+.checkbox:checked + .check-text .checked {
+  opacity: 0;
 }
 
 .checked {
